@@ -1,0 +1,24 @@
+1. Most Popular TV Shows
+ A complete list of Most Popular TV Shows. TV Shows are returned in descending order and contain the basic
+ information about them.
+
+ URL: most-pupular?page=:page 
+ paremeter: page
+ Example: https://www.episodate.com/api/most-popular?page=1
+
+2. Show dtails
+ Retrive all information for a given show.
+ To get TV show details, use parmalink or ID of the show . All air dates are retived in GMT timezone.
+
+ URL:show-details?q=:show
+ parameter: q (TV show Id)
+ Example: https://www.episodate.com/api/show-details?q=29560
+
+3. Search
+ Search Through all the shows in our database by the show's name. A fuzzy algorithm is used, meaning that shows
+ will be found even if your query contains smaal typeos. Results are returned in order of name and contain
+ the basic information avout show.
+
+ URL: /search?q=:search&page=:page
+ parameters: q (search Keyword) & page
+ Example: https://www.episodate.com/api/search?q=arrow&page=1

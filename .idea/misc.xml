@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/drawable/background_tv_show.xml" value="0.2402027027027027" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/activity_main.xml" value="0.1837431693989071" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/activity_tvshow_details.xml" value="0.19706284153005466" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/item_container_tv_show.xml" value="0.18510928961748635" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
