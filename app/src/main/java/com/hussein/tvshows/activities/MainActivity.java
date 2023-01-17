@@ -51,6 +51,9 @@ For (show Details link)
 21. Add TVSHowListener to TVShowsAdapter (object) to perform the function of interface when press on the layout
     to show the details
 22. put implements TVShowListener here (main) to put the body of the function & edit on TVShowsAdapter (second Parameter)
+23. write code in TVShowDetailsActivity
+24. make imageSliderAdapter and write code in it
+25. edit on TVShowDetailsActivity
  */
 
 public class MainActivity extends AppCompatActivity implements TVShowListener {
