@@ -3,15 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/drawable/background_back_button.xml" value="0.13277027027027027" />
-        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/drawable/background_fading_edge.xml" value="0.2402027027027027" />
-        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/drawable/background_slider_indicator_active.xml" value="0.2375" />
-        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/drawable/background_slider_indicator_inactive.xml" value="0.2375" />
-        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/drawable/background_tv_show.xml" value="0.2402027027027027" />
-        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/activity_main.xml" value="0.1837431693989071" />
-        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/activity_tvshow_details.xml" value="0.19706284153005466" />
-        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/item_container_slider_image.xml" value="0.19569672131147542" />
-        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/item_container_tv_show.xml" value="0.18510928961748635" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/activity_main.xml" value="0.24909420289855072" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/activity_search.xml" value="0.24909420289855072" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/activity_tvshow_details.xml" value="0.19479166666666667" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/activity_watchlist.xml" value="0.19655797101449277" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/item_container_episode.xml" value="0.19655797101449277" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/item_container_slider_image.xml" value="0.19655797101449277" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/item_container_tv_show.xml" value="0.19972826086956522" />
+        <entry key="..\:/fci 2020/computer programming/Mobile Projects/TV Shows/app/src/main/res/layout/layout_episodes_bottom_sheet.xml" value="0.19972826086956522" />
       </map>
     </option>
   </component>

@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.hussein.tvshows.R;
 import com.hussein.tvshows.adapters.TVShowsAdapter;
@@ -54,6 +55,27 @@ For (show Details link)
 23. write code in TVShowDetailsActivity
 24. make imageSliderAdapter and write code in it
 25. edit on TVShowDetailsActivity
+26. make EpisodesAdapter in (adapters)
+27. Edit TVSHowDetailsActivity
+
+.....  For Room Database (for Watchlist) ......
+28. Edit on TVShow (added Entity , PrimaryKey , implementation Serializable) For Room Database
+29. make package(dao) and interface (TVShowDao)
+29. make package(database) and interface (TVShowsDatabase)
+30. Edit onTVShowClicked
+31. Edit TVShowDetailsActivity (class) & TVShowDetailsViewModel()
+32. Edit TVShowDetailsActivity
+33. Make WatchlistActivity (Activity) & WatchlistViewModel (in ViewModel)
+34. Edit doInitialization()
+35. make WatchlistListener (listener) & WatchlistListener (Adapter)
+36. Modify WatchlistActivity()
+37. make TempDataHolder (utilities)
+38. modify WatchlistActivity()
+
+..... For Search ......
+1. Edit ApiService (Adding Search)
+2. Make SearchTVShowRepository (repositories Package) & SearchViewModel (ViewModel) & SearchActivity (Activity)
+3. Edit doInitialization() & SearchActivity
  */
 
 public class MainActivity extends AppCompatActivity implements TVShowListener {
@@ -92,6 +114,8 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
                 }
             }
         });
+        activityMainBinding.imageWatchList.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), WatchlistActivity.class)));
+        activityMainBinding.imageSearch.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),SearchActivity.class)));
         getMostPopularTVShows();
     }
 
@@ -133,12 +157,7 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
     @Override
     public void onTVShowClicked(TVShow tvShow) {
         Intent intent = new Intent(getApplicationContext(), TVShowDetailsActivity.class);
-        intent.putExtra("id", tvShow.getId());
-        intent.putExtra("name", tvShow.getName());
-        intent.putExtra("startDate", tvShow.getStartDate());
-        intent.putExtra("country", tvShow.getCountry());
-        intent.putExtra("network", tvShow.getNetwork());
-        intent.putExtra("status", tvShow.getStatus());
+        intent.putExtra("tvShow", tvShow);
         startActivity(intent);
     }
 }
